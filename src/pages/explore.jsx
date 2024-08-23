@@ -149,8 +149,8 @@ export default function Explore() {
               <div className="pb-6">
                 <h2 className="text-2xl font-medium text-[#313339] mb-4">How does Switch work?</h2>
                 <div className="bg-white border border-[#2B2D331F] border-b-[3px] p-3 rounded">
-                    <div className="flex items-center justify-center gap-2 mb-4">
-                        <div className="bg-[#357065] rounded-tl rounded-bl py-3.5 px-3">
+                    <div className="flex items-center justify-center gap-3 mb-4">
+                        <div className="bg-[#357065] rounded-tl rounded-bl py-4 px-3.5">
                         <span className="text-base font-extrabold leading-5 text-white">1</span>
                         </div>
                         <div>
@@ -158,8 +158,8 @@ export default function Explore() {
                         <p className="text-xs font-normal leading-[18px] text-[#767676]">Choose either shopping, dining, or travel for 2% cashback</p>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center gap-2 mb-4">
-                        <div className="bg-[#357065] rounded-tl rounded-bl py-3.5 px-3">
+                    <div className="flex items-center justify-center gap-3 mb-4">
+                        <div className="bg-[#357065] rounded-tl rounded-bl py-4 px-3.5">
                         <span className="text-base font-extrabold leading-5 text-white">2</span>
                         </div>
                         <div>
@@ -167,8 +167,8 @@ export default function Explore() {
                         <p className="text-xs font-normal leading-[18px] text-[#767676]">Earn 2% cashback on your selected category and 0.4% on all other spends</p>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center gap-2 mb-4">
-                        <div className="bg-[#357065] rounded-tl rounded-bl py-3.5 px-3">
+                    <div className="flex items-center justify-center gap-3 mb-4">
+                        <div className="bg-[#357065] rounded-tl rounded-bl py-4 px-3.5">
                         <span className="text-base font-extrabold leading-5 text-white">3</span>
                         </div>
                         <div>
