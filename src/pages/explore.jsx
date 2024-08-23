@@ -40,7 +40,7 @@ export default function Explore() {
                 <span
                   style={{
                     backgroundImage:
-                      "url(/src/assets/images/icons/shoping.png)",
+                      "url(/src/assets/images/icons/shopping.png)",
                   }}
                   className="bg-no-repeat bg-cover w-[18px] h-5 inline-block"
                 ></span>
@@ -68,7 +68,7 @@ export default function Explore() {
                   <span
                     style={{
                       backgroundImage:
-                        "url(/src/assets/images/icons/assured-cashbak.png)",
+                        "url(/src/assets/images/icons/assured-cashback.png)",
                     }}
                     className="bg-no-repeat bg-cover w-9 h-9 inline-block"
                   ></span>
