@@ -143,7 +143,7 @@ export default function Explore() {
                       backgroundImage:
                         "url(/src/assets/images/icons/down-arro.png)",
                     }}
-                    className="bg-no-repeat bg-cover w-3.5 h-2 inline-block ml-2"
+                    className="bg-no-repeat bg-cover w-4 h-3 inline-block ml-2"
                   ></span>
               </div>
               <div className="pb-6">
