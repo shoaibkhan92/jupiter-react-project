@@ -170,7 +170,7 @@ export default function Explore() {
                 </h2>
                 <div className="bg-white border border-[#2B2D331F] border-b-[3px] p-3 rounded">
                   {features.map((item, index) => (
-                    <div className="flex gap-3 mb-4">
+                    <div key={index} className={`flex gap-3 ${index !== features.length - 1 ? 'mb-4' : ''}`}>
                       <div className="flex bg-[#357065] rounded-tl rounded-bl w-8 flex-shrink-0">
                         <span className="text-base font-extrabold leading-5 text-white m-auto">
                           {item.id}
