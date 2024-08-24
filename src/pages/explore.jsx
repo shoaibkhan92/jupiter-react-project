@@ -1,3 +1,21 @@
+const features = [
+  {
+    id: 1,
+    heading: " Select where to earn 2% cashback",
+    subheading: "Choose either shopping, dining, or travel for 2% cashback",
+  },
+  {
+    id: 2,
+    heading: " Pay with UPI or credit card",
+    subheading:
+      "Earn 2% cashback on your selected category and 0.4% on all other spends",
+  },
+  {
+    id: 3,
+    heading: " Switch with 1-tap",
+    subheading: "You can switch to a different category every 3 billing cycles",
+  },
+];
 export default function Explore() {
   return (
     <>
@@ -12,13 +30,13 @@ export default function Explore() {
                 <h2 className="text-[32px] font-medium leading-10 text-[#FFE7AD]">
                   2% cashback
                 </h2>
-                
-              <span
-                style={{
-                  backgroundImage: "url(/src/assets/images/icons/star.png)",
-                }}
-                className="bg-no-repeat bg-cover w-3.5 h-3.5 absolute inline-block top-px -right-4"
-              ></span>
+
+                <span
+                  style={{
+                    backgroundImage: "url(/src/assets/images/icons/star.png)",
+                  }}
+                  className="bg-no-repeat bg-cover w-3.5 h-3.5 absolute inline-block top-px -right-4"
+                ></span>
               </div>
               <p className="text-xs font-normal leading-[18px] text-[#FFFFFFB8]">
                 on the category of your choice
@@ -139,43 +157,35 @@ export default function Explore() {
                   Know more
                 </a>
                 <span
-                    style={{
-                      backgroundImage:
-                        "url(/src/assets/images/icons/down-arro.png)",
-                    }}
-                    className="bg-no-repeat bg-cover w-4 h-3 inline-block ml-2"
-                  ></span>
+                  style={{
+                    backgroundImage:
+                      "url(/src/assets/images/icons/down-arro.png)",
+                  }}
+                  className="bg-no-repeat bg-cover w-4 h-3 inline-block ml-2"
+                ></span>
               </div>
               <div className="pb-6">
-                <h2 className="text-2xl font-medium text-[#313339] mb-4">How does Switch work?</h2>
+                <h2 className="text-2xl font-medium text-[#313339] mb-4">
+                  How does Switch work?
+                </h2>
                 <div className="bg-white border border-[#2B2D331F] border-b-[3px] p-3 rounded">
-                    <div className="flex items-center justify-center gap-3 mb-4">
-                        <div className="bg-[#357065] rounded-tl rounded-bl py-4 px-3.5">
-                        <span className="text-base font-extrabold leading-5 text-white">1</span>
-                        </div>
-                        <div>
-                        <p className="text-sm font-semibold leading-[22px] text-[#313339] mb-1.5">Select where to earn 2% cashback</p>
-                        <p className="text-xs font-normal leading-[18px] text-[#767676]">Choose either shopping, dining, or travel for 2% cashback</p>
-                        </div>
+                  {features.map((item, index) => (
+                    <div key={index} className={`flex gap-3 ${index !== features.length - 1 ? 'mb-4' : ''}`}>
+                      <div className="flex bg-[#357065] rounded-tl rounded-bl w-8 flex-shrink-0">
+                        <span className="text-base font-extrabold leading-5 text-white m-auto">
+                          {item.id}
+                        </span>
+                      </div>
+                      <div>
+                        <p className="text-sm font-semibold leading-[22px] text-[#313339] mb-1.5">
+                          {item.heading}
+                        </p>
+                        <p className="text-xs font-normal leading-[18px] text-[#767676]">
+                          {item.subheading}
+                        </p>
+                      </div>
                     </div>
-                    <div className="flex items-center justify-center gap-3 mb-4">
-                        <div className="bg-[#357065] rounded-tl rounded-bl py-4 px-3.5">
-                        <span className="text-base font-extrabold leading-5 text-white">2</span>
-                        </div>
-                        <div>
-                        <p className="text-sm font-semibold leading-[22px] text-[#313339] mb-1.5">Pay with UPI or credit card</p>
-                        <p className="text-xs font-normal leading-[18px] text-[#767676]">Earn 2% cashback on your selected category and 0.4% on all other spends</p>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-center gap-3 mb-4">
-                        <div className="bg-[#357065] rounded-tl rounded-bl py-4 px-3.5">
-                        <span className="text-base font-extrabold leading-5 text-white">3</span>
-                        </div>
-                        <div>
-                        <p className="text-sm font-semibold leading-[22px] text-[#313339] mb-1.5">Switch with 1-tap</p>
-                        <p className="text-xs font-normal leading-[18px] text-[#767676]">You can switch to a different category every 3 billing cycles</p>
-                        </div>
-                    </div>
+                  ))}
                 </div>
               </div>
             </div>
