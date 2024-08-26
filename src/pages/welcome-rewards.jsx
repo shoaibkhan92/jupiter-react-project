@@ -1,29 +1,28 @@
 const features = [
   {
     image: "/src/assets/images/icons/rs-50-cashbak.png",
-    heading: " Select where to earn 2% cashback",
-    subheading: "Choose either shopping, dining, or travel for 2% cashback",
+    heading: " ₹50 cashback on your 1st UPI payment",
+    subheading: "Activate UPI on your credit card and make a merchant payment",
   },
   {
     image: "/src/assets/images/icons/edge-card-bill-xxxl.png",
-    heading: " Pay with UPI or credit card",
+    heading: " ₹50 cashback on your 1st card swipe",
     subheading:
-      "Earn 2% cashback on your selected category and 0.4% on all other spends",
+      "Activate your physical credit card and pay in-store or online",
   },
   {
     image: "/src/assets/images/icons/edge-card-bill-xx-xl.png",
-    heading: " Switch with 1-tap",
-    subheading: "You can switch to a different category every 3 billing cycles",
+    heading: " ₹150 voucher on spends of ₹15,000",
+    subheading: "Claim a voucher from Swiggy, Amazon, and more top brands",
   },
 ];
-export default function WelcomeOffer() {
+export default function WelcomeRewardsr() {
   return (
     <>
-      <main className="">
         <div className="max-w-md mx-auto ">
           <section className="pt-24 px-4 bg-accent-primary">
             <div className="mb-9">
-              <h2 className="text-[32px] font-medium leading-[40px] text-white mb-2.5">
+              <h2 className="text-t32 font-medium leading-10 text-white mb-2.5">
                 Get welcome rewards worth ₹250
               </h2>
               <p className="text-base font-normal text-dark-secondary">
@@ -39,10 +38,10 @@ export default function WelcomeOffer() {
                     className="bg-no-repeat bg-cover w-[39px] h-[39px] inline-block"
                   />
                   <div>
-                    <p className="text-lg font-bold leading-[26px] text-primary-black">
+                    <p className="text-lg font-bold leading-l-26 text-primary-black">
                     {item.heading}
                     </p>
-                    <p className="text-xs font-normal leading-[18px] text-secondary-black">
+                    <p className="text-xs font-normal leading-l-18 text-secondary-black">
                     {item.subheading}
                     </p>
                   </div>
@@ -52,7 +51,6 @@ export default function WelcomeOffer() {
               <p className="text-xs font-semibold text-dark-secondary pb-10">Note: ₹50 cashback is credited as Jewels. You can redeem it in cash later</p>
           </section>
         </div>
-      </main>
     </>
   );
 }
