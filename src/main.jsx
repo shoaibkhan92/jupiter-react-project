@@ -7,7 +7,7 @@ import {
 import "./index.css";
 import Home from "./pages/home";
 import Explore from "./pages/explore";
-import WelcomeOffer from "./pages/welcome-offer";
+import WelcomeRewards from "./pages/welcome-rewards";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     element: <Explore />,
   },
   {
-    path: "/welcome",
-    element: <WelcomeOffer />,
+    path: "/welcome-rewards",
+    element: <WelcomeRewards />,
   },
 ]);
 
