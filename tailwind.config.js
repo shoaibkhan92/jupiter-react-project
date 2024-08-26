@@ -22,13 +22,6 @@ export default {
       'black-40': '#9E9E9E',
       'black-20': '#DDDDDD'
         },
-        fontSize: {
-          't32': '32px'
-        },
-        lineHeight: {
-          'l-18': '18px',
-          'l-26': '26px',
-        }
   },
   plugins: [],
 }
