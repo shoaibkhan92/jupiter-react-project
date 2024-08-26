@@ -17,6 +17,7 @@ export default {
         "light-beach": "#BFBFBF",
         "black-40": "#9E9E9E",
         "black-20": "#DDDDDD",
+        "light-bg": "#FFFFFF4D",
       },
       fontSize: {
         8: "32px",
@@ -25,9 +26,14 @@ export default {
       lineHeight:{
         4.5: "18px",
         6.5: "26px",
+        5.5: "22px",
       },
       borderWidth:{
         3: "3px",
+      },
+      spacing:{
+        76.5: "306px",
+        21: "84px",
       }
     },
     
