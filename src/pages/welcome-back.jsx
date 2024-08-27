@@ -39,7 +39,7 @@ export default function WelcomeBack() {
           style={{
             backgroundImage: `url("/src/assets/images/welcome-back.png")`,
           }}
-          className="bg-no-repeat bg-cover w-full h-auto inline-block px-6"
+          className="bg-no-repeat bg-cover w-full h-screen inline-block px-6"
         >
           <div className="text-center pt-10 mb-2">
             <p className="text-8 font-medium left-10 text-white mb-4">
