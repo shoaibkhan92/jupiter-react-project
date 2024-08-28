@@ -8,6 +8,7 @@ import "./index.css";
 import Home from "./pages/home";
 import Explore from "./pages/explore";
 import WelcomeRewards from "./pages/welcome-rewards";
+import WelcomeBack from "./pages/welcome-back";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/welcome-rewards",
     element: <WelcomeRewards />,
+  },
+  {
+    path: "/welcome-back",
+    element: <WelcomeBack />,
   },
 ]);
 
