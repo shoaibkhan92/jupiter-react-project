@@ -31,7 +31,7 @@ export default function WelcomeRewards() {
             </p>
           </div>
           {features.map((item, index) => (
-            <div className="bg-white rounded-lg border border-tertiary border-b-3 p-4 mb-6">
+            <div key={index} className="bg-white rounded-lg border border-tertiary border-b-3 p-4 mb-6">
               <div className="flex gap-4">
                 <img
                   src={item.image}
