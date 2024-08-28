@@ -34,6 +34,9 @@ export default {
       spacing:{
         76.5: "306px",
         21: "84px",
+      },
+      width:{
+        62.5: "250px",
       }
     },
     
